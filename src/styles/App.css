@@ -1,0 +1,85 @@
+.App {
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #e6e6e6;
+}
+.App-header {
+  height: 40px;
+  background-color: #f45c07;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-weight: bold;
+  padding: 0 80px;
+}
+.App-header div {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  display: flex;
+  width: 1000px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* Search */
+.search-container {
+  flex-direction: column;
+}
+
+/* List */
+.resource-list-container {
+  flex-direction: column;
+}
+
+.resource-container {
+  padding: 10px 15px;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+.avatar {
+  width: 100px;
+}
+
+.detail {
+  margin-left: 20px;
+}
+
+.left-col {
+  display: flex;
+}
+
+.commitment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 40px;
+}
+
+.commitment .tag {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.commitment .location-label {
+  font-size: 8px;
+  margin-top: 20px;
+}
+.commitment .location {
+  font-size: 10px;
+  font-weight: 500;
+}
